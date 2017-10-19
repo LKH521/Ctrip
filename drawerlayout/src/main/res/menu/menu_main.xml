@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="每日精选" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@mipmap/ic_launcher"
+            android:title="私人医生" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@mipmap/ic_launcher"
+            android:title="我的电影" />
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@mipmap/ic_launcher"
+            android:title="天气预报" />
+    </group>
+    <item android:title="火车票">
+        <menu>
+            <item
+                android:id="@+id/sub_item1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="站站查询" />
+            <item
+                android:id="@+id/sub_item2"
+                android:icon="@mipmap/ic_launcher"
+                android:title="车次查询" />
+        </menu>
+    </item>
+    <!--
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.melo.blog.wigetdemo.MainActivity">
+    <item
+        android:id="@+id/search"
+        android:icon="@mipmap/drawer_header"
+        android:title="搜索"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="2"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="3"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_like"
+        android:orderInCategory="4"
+        android:title="@string/action_like"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_collect"
+        android:orderInCategory="5"
+        android:title="@string/action_collect"
+        app:showAsAction="never" />
+
+</menu>
+-->
+</menu>

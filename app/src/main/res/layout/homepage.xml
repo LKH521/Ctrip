@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/smssdk_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/a122"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!--<com.bc.lkh.ctrip.textview.FocusTextView
+            android:id="@+id/tv_pmd"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="100"
+            android:singleLine="true"
+            android:text="欢迎进入携程旅行，“携程在手，说走就走！”，携程将为您提供最合理的行程服务！"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp" />-->
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="35dp"></android.support.v4.view.ViewPager>
+
+        <TextView
+            android:id="@+id/mg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="bottom|center"
+            android:text="蘑菇日推"
+            android:textColor="@color/smssdk_black"
+            android:textSize="18sp" />
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/lv_news"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_weight="1.37"-->
+            <!--android:overScrollMode="never"-->
+            <!--android:scrollbars="none"-->
+            <!--android:visibility="invisible"></android.support.v7.widget.RecyclerView>-->
+        <ListView
+            android:id="@+id/lv_news"
+            android:layout_width="match_parent"
+            android:layout_height="294dp"
+            android:layout_weight="0.14"></ListView>
+        <!--<ImageView-->
+            <!--android:id="@+id/ig"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/tt" />-->
+
+    </LinearLayout>
+</LinearLayout>

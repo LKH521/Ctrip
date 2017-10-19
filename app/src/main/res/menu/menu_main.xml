@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/nav_discussion"
+            android:title="未来天气" />
+    <item android:title="乘坐火车">
+        <menu>
+            <item
+                android:id="@+id/sub_item1"
+                android:icon="@drawable/emoji_90"
+                android:title="站站查询" />
+            <item
+                android:id="@+id/sub_item2"
+                android:icon="@drawable/emoji_87"
+                android:title="车次查询" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_friends"
+        android:title="去看电影" />
+
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="每日精选" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@mipmap/ic_launcher"
+            android:title="私人医生" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@mipmap/ic_launcher"
+            android:title="我的电影" />
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@mipmap/ic_launcher"
+            android:title="天气预报" />
+    </group>
+    <item android:title="火车票">
+        <menu>
+            <item
+                android:id="@+id/sub_item1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="站站查询" />
+            <item
+                android:id="@+id/sub_item2"
+                android:icon="@mipmap/ic_launcher"
+                android:title="车次查询" />
+        </menu>
+    </item>
+</menu>

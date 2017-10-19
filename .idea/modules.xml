@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ctrip.iml" filepath="$PROJECT_DIR$/Ctrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyPullToRefresh/MyPullToRefresh.iml" filepath="$PROJECT_DIR$/MyPullToRefresh/MyPullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySwipeRefreshLayout/MySwipeRefreshLayout.iml" filepath="$PROJECT_DIR$/MySwipeRefreshLayout/MySwipeRefreshLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyxUtils/MyxUtils.iml" filepath="$PROJECT_DIR$/MyxUtils/MyxUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NavigationView/NavigationView.iml" filepath="$PROJECT_DIR$/NavigationView/NavigationView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OKHttp/OKHttp.iml" filepath="$PROJECT_DIR$/OKHttp/OKHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PTR/PTR.iml" filepath="$PROJECT_DIR$/PTR/PTR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" filepath="$PROJECT_DIR$/PullToRefresh/PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerView/RecyclerView.iml" filepath="$PROJECT_DIR$/RecyclerView/RecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeRefreshLayout/SwipeRefreshLayout.iml" filepath="$PROJECT_DIR$/SwipeRefreshLayout/SwipeRefreshLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardview/cardview.iml" filepath="$PROJECT_DIR$/cardview/cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drawerlayout/drawerlayout.iml" filepath="$PROJECT_DIR$/drawerlayout/drawerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liukaihua_test/liukaihua_test.iml" filepath="$PROJECT_DIR$/liukaihua_test/liukaihua_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lkh_test/lkh_test.iml" filepath="$PROJECT_DIR$/lkh_test/lkh_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" filepath="$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpledrawerlayout/simpledrawerlayout.iml" filepath="$PROJECT_DIR$/simpledrawerlayout/simpledrawerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidelibrary/slidelibrary.iml" filepath="$PROJECT_DIR$/slidelibrary/slidelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu/slidingmenu.iml" filepath="$PROJECT_DIR$/SlidingMenu/slidingmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils/xutils.iml" filepath="$PROJECT_DIR$/xutils/xutils.iml" />
+    </modules>
+  </component>
+</project>

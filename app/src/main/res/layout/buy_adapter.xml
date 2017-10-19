@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/startt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="始时"
+            android:textColor="#0FA1DF"
+            android:textSize="21sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/lishi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:text="历时"
+            android:textColor="#6DDD75"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/endt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="到时"
+            android:textColor="#FF9A15"
+            android:textSize="21sp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="始站"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/car"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="top|center"
+            android:text="车次"
+            android:textColor="#6DDD75"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="末站"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/yz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="硬座"
+            android:textColor="@color/smssdk_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/yw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="硬卧"
+            android:textColor="@color/smssdk_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/rw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="软卧"
+            android:textColor="@color/smssdk_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/wz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="无座"
+            android:textColor="@color/smssdk_gray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ydz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="一等座"
+            android:textColor="@color/smssdk_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/edz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="二等座"
+            android:textColor="@color/smssdk_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/swz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="商务座"
+            android:textColor="@color/smssdk_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tdz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="特等座"
+            android:textColor="@color/smssdk_gray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
